@@ -1,1 +1,142 @@
+:root{
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+}
+
+.container{
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+}
+
+#start{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  #email{
+    width: 270px;
+    height: 28px;
+    padding: 11px;
+    padding-left: 5;
+    font-size: 13px;
+  }
+
+  #submit{
+    position: relative;
+    margin-top: 12px;
+    width: 130px;
+    height: 35px;
+    background-color: rgb(26, 160, 8);
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    z-index: 1;
+  }
+
+  ul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    float: right;
+    padding-right: 15px;
+    margin: auto;
+    color: white;
+    font-size: 1rem;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #features{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #demo{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+  #pricing{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #container{
+    width: 100%;
+    height: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .item {
+    width: 280px;
+    height: 300px;
+    margin-top: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+  }
+  .item h3{
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(2, 10, 10, 0.336);
+    font-size: 15px;
+  }
+
+ 
+  footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  } 
 
